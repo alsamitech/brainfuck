@@ -1,5 +1,3 @@
-
-
 #include<stdio.h>
 #include<stdlib.h>
 #define MEM_LEN 3000
