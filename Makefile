@@ -6,3 +6,5 @@ clean:
 
 build:
 	gcc brainfuck.c -o brainfuck
+
+install: ; mv brainfuck /usr/bin

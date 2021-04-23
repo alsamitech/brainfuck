@@ -1,11 +1,9 @@
-# Brainfuck Interpreter
-This is a simple Brainfuck interpreter I built for my [YouTube](https://www.youtube.com/alexlugo) channel. My first BF video I wrote hello world in the esoteric language. This time around I wrote the language itself. Who knows what I'll do in my final entry in the Brainfuck trilogy??
+# Brainfuck Interpreter, but efficient
+This interpreter does only the most basic optimizations for the sake of speed, like replacing fprintf() with fputs() when applicable.
 
-## Use
-I made this interpreter in like 40 minutes. It's under 70 lines of code and it only uses standard libraries in C. To build the project just run `make`.
+(aand this adds an install target in the makefile just in case you're too lazy to move it to your path directory by yourself)
 
-You shouldn't have to install anything crazy to run
-this program...it's just Brainfuck.
+Usage: ./brainfuck <filenm>
+NOTE: do not use the ./ if you've "installed" it with make install
 
-## Shameless Plugs
-If you're here *not* because of my YouTube channel, then here's a [link](https://www.youtube.com/alexlugo) to it. Like share and subscribe, or whatever.
+[YouTube Channel of Original Creator](https://www.youtube.com/alexlugo)
